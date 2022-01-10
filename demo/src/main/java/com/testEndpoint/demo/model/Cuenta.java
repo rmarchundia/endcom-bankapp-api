@@ -93,7 +93,7 @@ public class Cuenta {
 	
 	
 		
-	public String getAccount() {
+	public  String getAccount() {
 		return account;
 	}//getAccount
 
@@ -101,7 +101,7 @@ public class Cuenta {
 		this.account = account;
 	}//setAccount
 
-	public Float getBalance() {
+	public  Float getBalance() {
 		return balance;
 	}//getBalance
 
@@ -109,9 +109,4 @@ public class Cuenta {
 			this.balance = balance;
 	}//setBalance
 	
-	
-	
-	
-	
-
 }//CuentaClass
